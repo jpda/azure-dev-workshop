@@ -1,0 +1,6 @@
+[Setup]
+Lang=english
+Dir=C:\Program Files\SQL Operations Studio
+Group=SQL Operations Studio
+NoIcons=0
+Tasks=addtopath
