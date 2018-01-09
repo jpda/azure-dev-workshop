@@ -1,0 +1,14 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2016-11-28/dtlArtifacts.json",
+    "title": "Azure Storage Explorer",
+    "description": "Disable IE ESC for Administrators",
+    "tags": [
+        "Windows",
+        "IE",
+        "ESC"
+    ],
+    "targetOsType": "Windows",
+    "runCommand": {
+        "commandToExecute": "powershell.exe -ExecutionPolicy bypass -File disable-esc.ps1"
+    }
+}
