@@ -18,7 +18,7 @@ Function Get-RedirectedUrl
 $url = 'https://go.microsoft.com/fwlink/?linkid=865305&clcid=0x409'
 $codeSetupUrl = Get-RedirectedUrl -URL $url
 
-$infPath = $PSScriptRoot + "\storageexp.inf"
+$infPath = $PSScriptRoot + "\sqlops.inf"
 $sqlOpsSetup = "${env:Temp}\SqlOps.exe"
 
 try
